@@ -76,6 +76,20 @@ form{
     background-color: gold;
 
 }
+@media only screen and(max-width: 600px){
+    form{
+        background-color: grey;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+        form {
+          background-color: lightblue;
+        }
+      }
+      .main {
+          display: flex;
+          flex-wrap: wrap;
+      }
 fieldset{
     
     border: 1px solid gray;
@@ -151,4 +165,11 @@ h1::first-letter{
     background-color: gold;
     
 
+}
+
+@media only screen and(max-width: 600px){
+    form{
+        background-color: grey;
+    }
+    
 }
